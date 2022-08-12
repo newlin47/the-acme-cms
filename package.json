@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start:dev": "nodemon server"
+		"start:dev": "SYNC=true nodemon server",
+		"start:dev:nosync": "nodemon server"
 	},
 	"keywords": [],
 	"author": "",
